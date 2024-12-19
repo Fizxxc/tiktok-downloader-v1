@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TikTok Downloader</title>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>TikTok Video Downloader</h1>
+    <form id="downloadForm">
+      <input type="text" id="videoUrl" placeholder="Enter TikTok Video URL" required>
+      <button type="submit">Download</button>
+    </form>
+    <div id="result" class="hidden">
+      <h3>Download Link:</h3>
+      <a id="downloadLink" href="#" target="_blank">Click here to download</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
